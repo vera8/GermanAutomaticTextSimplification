@@ -3,10 +3,10 @@
 In diesem Repository befinden sich die für das Fine-Tuning der verschiedenen mT5-Varianten verwendeten Skripte und Notebooks.
 Darunter versteht sich Folgendes: 
 * Allgemein:
-  * Jupyter Notebook in Kombination Python-Skripten zum Fine-Tunen und Evaluieren der Modelle: 
+  * Jupyter Notebook in Kombination mit Python-Skripten zum Fine-Tunen und Evaluieren der Modelle: 
     * [finetuning_evaluation_pipeline.ipynb](finetuning_evaluation_pipeline.ipynb)
     * [scripts.py](scripts.py)
-  * Funktion zum Zusammenstellen eines deutschen Datensatzes aus verschiednen News-Texten (für das Filtern des Vokabulars, Trainieren des Tokenizers, Span-MLM):
+  * Funktion zum Zusammenstellen eines deutschen Datensatzes aus verschiedenen News-Texten (für das Filtern des Vokabulars, Trainieren des Tokenizers, Span-MLM):
     * [make_german_ds.py](make_german_ds.py)
 * Zum Filtern des Vokabulars:
   * Jupyter-Notebook zum Verkleinern des Vokabulars des mT5-Tokenizers:
